@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Create_TS</class>
+ <widget class="QMainWindow" name="Create_TS">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>547</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>547</width>
+    <height>330</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>547</width>
+    <height>330</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Создание обучающей выборки</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_select_video">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>341</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выберите обработанное видео, чтоб извлечь из него аудиофайл:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_name_ts">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>181</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выберите обучающую выборку:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_select_ts">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>331</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_select_video">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>90</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать видео</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_description_emotion">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Опишите эмоции диктора в обработанном видео:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label__select_class_fatigue">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выберите класс состояния диктора &lt;br/&gt;в обработанном видео:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_select_class_fatigue">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>240</y>
+      <width>321</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label__select_speaker">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>261</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выберите диктора, который отображен на видео:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_select_speaker">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>60</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_save">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить и выйти</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_back_to_menu_expert">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>280</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Назад</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_description_emotion">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>511</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

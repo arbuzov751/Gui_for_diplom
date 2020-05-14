@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu_expert</class>
+ <widget class="QMainWindow" name="Menu_expert">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>397</width>
+    <height>567</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>397</width>
+    <height>567</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>397</width>
+    <height>567</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Меню эксперта</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox_select_speaker">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>321</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_select_speaker">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выберите диктора или добавьте нового, если требуется:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_add_speaker">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить нового диктора</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_select_url">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>140</y>
+      <width>221</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавьте ссылку для скачивания видео:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_add_url">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить новую ссылку к выбранному диктору</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_add_speaker">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_add_url">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>170</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_add_comment">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>248</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить комментарий к видео:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_add_comment">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>240</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить комментарий</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_go_to_ts">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Перейти к созданию ОВ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_back_to_authorization_expert">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>510</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Назад</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_select_url">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>321</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_path_to_download_video">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>361</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Путь для сохранения видео&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_download">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>400</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Скачать видео</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_download_url">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>340</y>
+      <width>271</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вы можете сразу скачать видео по выбранному url:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_note_download_url">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>440</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Примечание: путь для скачивания видео &lt;br/&gt;был назначен вашим руководителем&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_comment">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
