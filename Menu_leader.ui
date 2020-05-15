@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>747</width>
+    <width>786</width>
     <height>454</height>
    </rect>
   </property>
@@ -32,7 +32,7 @@
      <rect>
       <x>20</x>
       <y>60</y>
-      <width>331</width>
+      <width>311</width>
       <height>21</height>
      </rect>
     </property>
@@ -42,7 +42,7 @@
      <rect>
       <x>10</x>
       <y>300</y>
-      <width>351</width>
+      <width>321</width>
       <height>20</height>
      </rect>
     </property>
@@ -66,7 +66,7 @@
    <widget class="QPushButton" name="pushButton_path_to_save_video">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>220</x>
       <y>270</y>
       <width>111</width>
       <height>23</height>
@@ -94,7 +94,7 @@
      <rect>
       <x>10</x>
       <y>360</y>
-      <width>351</width>
+      <width>321</width>
       <height>20</height>
      </rect>
     </property>
@@ -105,7 +105,7 @@
    <widget class="QPushButton" name="pushButton_path_to_save_audio">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>220</x>
       <y>330</y>
       <width>111</width>
       <height>23</height>
@@ -131,7 +131,7 @@
    <widget class="QPushButton" name="pushButton_save">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>10</x>
       <y>410</y>
       <width>151</width>
       <height>41</height>
@@ -144,7 +144,7 @@
    <widget class="QPushButton" name="pushButton_exit">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>190</x>
       <y>410</y>
       <width>151</width>
       <height>41</height>
@@ -157,20 +157,20 @@
    <widget class="QPushButton" name="pushButton_add_expert">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>350</y>
-      <width>311</width>
+      <x>360</x>
+      <y>390</y>
+      <width>121</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Добавить нового эксперта</string>
+     <string>Добавить эксперта</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_name_leader">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>420</x>
       <y>40</y>
       <width>131</width>
       <height>16</height>
@@ -183,7 +183,7 @@
    <widget class="QLineEdit" name="lineEdit_name_leader">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>550</x>
       <y>40</y>
       <width>221</width>
       <height>20</height>
@@ -193,8 +193,8 @@
    <widget class="QLabel" name="label_name_leader_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>150</y>
+      <x>420</x>
+      <y>130</y>
       <width>341</width>
       <height>16</height>
      </rect>
@@ -212,7 +212,7 @@
    <widget class="QLabel" name="label_ts_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>60</x>
       <y>10</y>
       <width>711</width>
       <height>21</height>
@@ -233,7 +233,7 @@
    <widget class="QLabel" name="label_name_leader_3">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>420</x>
       <y>70</y>
       <width>131</width>
       <height>16</height>
@@ -246,7 +246,7 @@
    <widget class="QLineEdit" name="lineEdit_name_leader_2">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>550</x>
       <y>70</y>
       <width>221</width>
       <height>20</height>
@@ -256,7 +256,7 @@
    <widget class="QLabel" name="label_name_leader_4">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>420</x>
       <y>100</y>
       <width>131</width>
       <height>16</height>
@@ -269,7 +269,7 @@
    <widget class="QLineEdit" name="lineEdit_name_leader_3">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>550</x>
       <y>100</y>
       <width>221</width>
       <height>20</height>
@@ -294,7 +294,7 @@
      <rect>
       <x>20</x>
       <y>110</y>
-      <width>331</width>
+      <width>311</width>
       <height>91</height>
      </rect>
     </property>
@@ -302,11 +302,37 @@
    <widget class="QTableView" name="tableView">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>170</y>
-      <width>351</width>
-      <height>171</height>
+      <x>360</x>
+      <y>150</y>
+      <width>421</width>
+      <height>231</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_add_expert_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>390</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Редактировать эксперта</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_add_expert_3">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>390</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить эксперта</string>
     </property>
    </widget>
   </widget>
