@@ -6,10 +6,29 @@
    <rect>
     <x>0</x>
     <y>0</y>
+<<<<<<< HEAD
     <width>381</width>
     <height>570</height>
    </rect>
   </property>
+=======
+    <width>397</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>397</width>
+    <height>626</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>397</width>
+    <height>626</height>
+   </size>
+  </property>
+>>>>>>> Some fixes
   <property name="windowTitle">
    <string>Меню эксперта</string>
   </property>
@@ -126,7 +145,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>510</y>
+      <y>570</y>
       <width>181</width>
       <height>51</height>
      </rect>
@@ -139,9 +158,15 @@
     <property name="geometry">
      <rect>
       <x>230</x>
+<<<<<<< HEAD
       <y>510</y>
       <width>141</width>
       <height>51</height>
+=======
+      <y>570</y>
+      <width>131</width>
+      <height>41</height>
+>>>>>>> Some fixes
      </rect>
     </property>
     <property name="text">
@@ -152,30 +177,17 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>370</y>
+      <y>490</y>
       <width>321</width>
       <height>22</height>
      </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_path_to_download_video">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>480</y>
-      <width>361</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Путь для сохранения видео&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_download">
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>400</y>
+      <y>520</y>
       <width>321</width>
       <height>41</height>
      </rect>
@@ -197,19 +209,6 @@
      <string>Вы можете сразу скачать видео по выбранному url:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_note_download_url">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>440</y>
-      <width>231</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Примечание: путь для скачивания видео &lt;br/&gt;был назначен вашим руководителем&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
    <widget class="QTextEdit" name="textEdit_comment">
     <property name="geometry">
      <rect>
@@ -218,6 +217,84 @@
       <width>321</width>
       <height>61</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_path_to_save_video">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>370</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать путь</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_path_to_save_audio">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>430</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выберите путь для сохранения видео:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_path_to_save_audio">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Путь для сохранения аудио</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_path_to_save_video">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выберите путь для сохранения видео:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_path_to_save_audio">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>430</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать путь</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_path_to_save_video">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>400</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Путь для сохранения видео</string>
     </property>
    </widget>
   </widget>
