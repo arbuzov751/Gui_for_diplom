@@ -7,19 +7,19 @@
     <x>0</x>
     <y>0</y>
     <width>347</width>
-    <height>383</height>
+    <height>264</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>347</width>
-    <height>383</height>
+    <height>264</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>347</width>
-    <height>383</height>
+    <height>264</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -62,84 +62,6 @@
      <string>Выберите эксперта:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_path_to_save_video">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>160</y>
-      <width>311</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Путь для сохранения видео</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_path_to_save_video">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>130</y>
-      <width>201</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Выберите путь для сохранения видео:</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_path_to_save_video">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>130</y>
-      <width>111</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Выбрать путь</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_path_to_save_audio">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>190</y>
-      <width>201</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Выберите путь для сохранения видео:</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_path_to_save_audio">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>220</y>
-      <width>311</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Путь для сохранения аудио</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_path_to_save_audio">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>190</y>
-      <width>111</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Выбрать путь</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_expert_category">
     <property name="geometry">
      <rect>
@@ -157,7 +79,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>250</y>
+      <y>130</y>
       <width>311</width>
       <height>31</height>
      </rect>
@@ -170,7 +92,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>330</y>
+      <y>210</y>
       <width>151</width>
       <height>41</height>
      </rect>
@@ -183,7 +105,7 @@
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>330</y>
+      <y>210</y>
       <width>151</width>
       <height>41</height>
      </rect>
@@ -196,7 +118,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>290</y>
+      <y>170</y>
       <width>311</width>
       <height>31</height>
      </rect>
