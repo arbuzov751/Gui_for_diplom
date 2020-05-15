@@ -6,21 +6,9 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>397</width>
-    <height>567</height>
+    <width>381</width>
+    <height>570</height>
    </rect>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>397</width>
-    <height>567</height>
-   </size>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>397</width>
-    <height>567</height>
-   </size>
   </property>
   <property name="windowTitle">
    <string>Меню эксперта</string>
@@ -140,7 +128,7 @@
       <x>40</x>
       <y>510</y>
       <width>181</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -152,8 +140,8 @@
      <rect>
       <x>230</x>
       <y>510</y>
-      <width>131</width>
-      <height>41</height>
+      <width>141</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
