@@ -57,7 +57,7 @@
        <string>4.</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_add_url">
+     <widget class="QLineEdit" name="lineEdit_add_url_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -70,7 +70,7 @@
        <string>URL</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_url">
+     <widget class="QLabel" name="label_select_url_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -89,7 +89,7 @@
        <string>Вставьте ссылку для скачивания видео с YouTube:</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_select_url">
+     <widget class="QComboBox" name="comboBox_select_class_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -120,7 +120,7 @@
        <string>3.</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment">
+     <widget class="QLabel" name="label_date_download_video_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -160,7 +160,7 @@
        <string>1.</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment">
+     <widget class="QTextEdit" name="textEdit_condition_download_video_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -170,7 +170,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_download">
+     <widget class="QPushButton" name="pushButton_download_video_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -189,7 +189,7 @@
        <string>Скачать видео</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_url">
+     <widget class="QPushButton" name="pushButton_associate_video_with_class_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -202,7 +202,7 @@
        <string>Ассоциировать [видео+описание] с выбранным диктором</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_download_2">
+     <widget class="QPushButton" name="pushButton_edit_video_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -221,7 +221,7 @@
        <string>Редактировать видео</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_speaker">
+     <widget class="QLabel" name="label_select_speaker_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -240,7 +240,7 @@
        <string>Выберите диктора из списка:</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_2">
+     <widget class="QTextEdit" name="textEdit_watch_video_YT">
       <property name="geometry">
        <rect>
         <x>560</x>
@@ -257,7 +257,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;Предварительный просмотр скачанного (!) и записанного на компьютер эксперта видео&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_3">
+     <widget class="QTextEdit" name="textEdit_description_state_speaker_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -274,7 +274,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;Вербальное описание сосояния диктора на указанном фрагменте&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_add_speaker">
+     <widget class="QLineEdit" name="lineEdit_date_download_video_YT">
       <property name="geometry">
        <rect>
         <x>300</x>
@@ -293,7 +293,7 @@ p, li { white-space: pre-wrap; }
        <string>12.12.2020</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_2">
+     <widget class="QLabel" name="label_condition_download_video_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -309,10 +309,10 @@ p, li { white-space: pre-wrap; }
        </font>
       </property>
       <property name="text">
-       <string>Обстоятельства, при которых скачанного видео было записано:</string>
+       <string>Обстоятельства, при которых скачанное видео было записано:</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_back_to_authorization_expert">
+     <widget class="QPushButton" name="pushButton_use_video_YT">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -325,7 +325,7 @@ p, li { white-space: pre-wrap; }
        <string>Использовать &quot;как есть&quot;</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_5">
+     <widget class="QLabel" name="label_select_class_YT">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -386,7 +386,7 @@ p, li { white-space: pre-wrap; }
        <string>5.</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_select_speaker">
+     <widget class="QComboBox" name="comboBox_select_speaker_YT">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -409,7 +409,7 @@ p, li { white-space: pre-wrap; }
        <enum>Qt::Horizontal</enum>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_6">
+     <widget class="QLabel" name="label_description_state_speaker_YT">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -428,7 +428,7 @@ p, li { white-space: pre-wrap; }
        <string>Описание состояния диктора:</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_speaker_2">
+     <widget class="QLabel" name="label_watch_video_YT">
       <property name="geometry">
        <rect>
         <x>580</x>
@@ -449,7 +449,7 @@ p, li { white-space: pre-wrap; }
        <string>Просмотр текущего загруженного видео</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_speaker_3">
+     <widget class="QLabel" name="label_watch_video_for_associate_YT">
       <property name="geometry">
        <rect>
         <x>590</x>
@@ -491,7 +491,7 @@ p, li { white-space: pre-wrap; }
        <string>6.</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_4">
+     <widget class="QTextEdit" name="textEdit_watch_video_for_associate_YT">
       <property name="geometry">
        <rect>
         <x>560</x>
@@ -508,7 +508,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;Предварительный просмотр отредактированного экспертом видео&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_url_4">
+     <widget class="QPushButton" name="pushButton_aditional_class_YT">
       <property name="geometry">
        <rect>
         <x>560</x>
@@ -521,7 +521,7 @@ p, li { white-space: pre-wrap; }
        <string>Доп.класс.признаки</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_url_5">
+     <widget class="QPushButton" name="pushButton_drop_YT">
       <property name="geometry">
        <rect>
         <x>820</x>
@@ -534,7 +534,7 @@ p, li { white-space: pre-wrap; }
        <string>Сбросить п.5,6</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_download_7">
+     <widget class="QPushButton" name="pushButton_delete_video_YT">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -579,7 +579,7 @@ p, li { white-space: pre-wrap; }
        <string>3.</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_speaker_7">
+     <widget class="QLabel" name="label_select_speaker_disk">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -598,7 +598,7 @@ p, li { white-space: pre-wrap; }
        <string>Выберите диктора из списка:</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_10">
+     <widget class="QLabel" name="label_date_download_video_disc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -617,7 +617,7 @@ p, li { white-space: pre-wrap; }
        <string>Дата создания загруженного видео:</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_speaker_8">
+     <widget class="QLabel" name="label_watch_video_disc">
       <property name="geometry">
        <rect>
         <x>560</x>
@@ -638,7 +638,7 @@ p, li { white-space: pre-wrap; }
        <string>Просмотр текущего загруженного видео</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_path_to_save_video_9">
+     <widget class="QLineEdit" name="lineEdit_direct">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -672,7 +672,7 @@ p, li { white-space: pre-wrap; }
        <string>4.</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_9">
+     <widget class="QTextEdit" name="textEdit_condition_download_video_disc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -682,7 +682,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_add_speaker_3">
+     <widget class="QLineEdit" name="lineEdit_date_download_video_disc">
       <property name="geometry">
        <rect>
         <x>330</x>
@@ -701,7 +701,7 @@ p, li { white-space: pre-wrap; }
        <string>12.12.2020</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_path_to_save_video_9">
+     <widget class="QPushButton" name="pushButton_select_direct">
       <property name="geometry">
        <rect>
         <x>390</x>
@@ -741,12 +741,12 @@ p, li { white-space: pre-wrap; }
        <string>2.</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_url_6">
+     <widget class="QLabel" name="label_select_direct">
       <property name="geometry">
        <rect>
         <x>40</x>
         <y>50</y>
-        <width>481</width>
+        <width>351</width>
         <height>16</height>
        </rect>
       </property>
@@ -760,7 +760,7 @@ p, li { white-space: pre-wrap; }
        <string>Укажите расположение файла с видеозаписью:</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_download_6">
+     <widget class="QPushButton" name="pushButton_download_in_system">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -779,7 +779,7 @@ p, li { white-space: pre-wrap; }
        <string>Загрузить видео в систему</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_select_speaker_3">
+     <widget class="QComboBox" name="comboBox_select_speaker_disk">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -789,7 +789,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_12">
+     <widget class="QLabel" name="label_condition_download_video_disc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -829,7 +829,7 @@ p, li { white-space: pre-wrap; }
        <string>1.</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_12">
+     <widget class="QTextEdit" name="textEdit_watch_video_disc">
       <property name="geometry">
        <rect>
         <x>550</x>
@@ -846,7 +846,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;Предварительный просмотр скачанного (!) и записанного на компьютер эксперта видео&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_url_6">
+     <widget class="QPushButton" name="pushButton_drop_disc">
       <property name="geometry">
        <rect>
         <x>810</x>
@@ -859,7 +859,7 @@ p, li { white-space: pre-wrap; }
        <string>Сбросить п.5,6</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_10">
+     <widget class="QTextEdit" name="textEdit_description_state_speaker_disc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -876,7 +876,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;Вербальное описание сосояния диктора на указанном фрагменте&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_9">
+     <widget class="QLabel" name="label_select_class_disc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -895,7 +895,7 @@ p, li { white-space: pre-wrap; }
        <string>В каком стандартном классе состояний находится диктор:</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_11">
+     <widget class="QLabel" name="label_description_state_speaker_disc">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -935,7 +935,7 @@ p, li { white-space: pre-wrap; }
        <string>5.</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_select_url_3">
+     <widget class="QComboBox" name="comboBox_select_class_disc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -945,7 +945,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_download_5">
+     <widget class="QPushButton" name="pushButton_edit_video_disc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -964,7 +964,7 @@ p, li { white-space: pre-wrap; }
        <string>Редактировать видео</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_url_3">
+     <widget class="QPushButton" name="pushButton_associate_video_with_class_disc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -977,7 +977,7 @@ p, li { white-space: pre-wrap; }
        <string>Ассоциировать [видео+описание] с выбранным диктором</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_url_7">
+     <widget class="QPushButton" name="pushButton_aditional_class_disc">
       <property name="geometry">
        <rect>
         <x>550</x>
@@ -990,7 +990,7 @@ p, li { white-space: pre-wrap; }
        <string>Доп.класс.признаки</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_back_to_authorization_expert_3">
+     <widget class="QPushButton" name="pushButton_use_video_disc">
       <property name="geometry">
        <rect>
         <x>270</x>
@@ -1003,7 +1003,7 @@ p, li { white-space: pre-wrap; }
        <string>Использовать &quot;как есть&quot;</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_11">
+     <widget class="QTextEdit" name="textEdit_watch_video_for_associate_disc">
       <property name="geometry">
        <rect>
         <x>550</x>
@@ -1054,7 +1054,7 @@ p, li { white-space: pre-wrap; }
        <enum>Qt::Horizontal</enum>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_speaker_9">
+     <widget class="QLabel" name="label_watch_video_for_associate_disc">
       <property name="geometry">
        <rect>
         <x>580</x>
@@ -1075,7 +1075,7 @@ p, li { white-space: pre-wrap; }
        <string>Просмотр видео для ассоциации с диктором</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_download_9">
+     <widget class="QPushButton" name="pushButton_delete_video_disk">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -1099,7 +1099,7 @@ p, li { white-space: pre-wrap; }
      <attribute name="title">
       <string>Описание загруженного видео</string>
      </attribute>
-     <widget class="QLabel" name="label_add_comment_13">
+     <widget class="QLabel" name="label_description_video">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1118,7 +1118,7 @@ p, li { white-space: pre-wrap; }
        <string>Описание видеозаписи:</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_speaker_10">
+     <widget class="QLabel" name="label_watch_video_for_associate_desc">
       <property name="geometry">
        <rect>
         <x>600</x>
@@ -1139,7 +1139,7 @@ p, li { white-space: pre-wrap; }
        <string>Просмотр видео для ассоциации с диктором</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_14">
+     <widget class="QLabel" name="label_date_download_video_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1158,7 +1158,7 @@ p, li { white-space: pre-wrap; }
        <string>Дата создания видеозаписи:</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_download_8">
+     <widget class="QPushButton" name="pushButton_edit_video_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1177,7 +1177,7 @@ p, li { white-space: pre-wrap; }
        <string>Редактировать видео</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_url_8">
+     <widget class="QPushButton" name="pushButton_associate_video_with_class_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1190,7 +1190,7 @@ p, li { white-space: pre-wrap; }
        <string>Ассоциировать [видео+описание] с выбранным диктором</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_13">
+     <widget class="QTextEdit" name="textEdit_watch_video_desc">
       <property name="geometry">
        <rect>
         <x>630</x>
@@ -1207,7 +1207,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;Предварительный просмотр скачанного (!) и записанного на компьютер эксперта видео&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_select_url_4">
+     <widget class="QComboBox" name="comboBox_select_class_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1217,7 +1217,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_back_to_authorization_expert_4">
+     <widget class="QPushButton" name="pushButton_use_video_desc">
       <property name="geometry">
        <rect>
         <x>270</x>
@@ -1251,12 +1251,12 @@ p, li { white-space: pre-wrap; }
        <string>1.</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_url_7">
+     <widget class="QLabel" name="label_select_video">
       <property name="geometry">
        <rect>
         <x>40</x>
         <y>60</y>
-        <width>481</width>
+        <width>331</width>
         <height>16</height>
        </rect>
       </property>
@@ -1270,7 +1270,7 @@ p, li { white-space: pre-wrap; }
        <string>Выберите видеозапись диктора для работы:</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_url_9">
+     <widget class="QPushButton" name="pushButton_aditional_class_desc">
       <property name="geometry">
        <rect>
         <x>550</x>
@@ -1315,7 +1315,7 @@ p, li { white-space: pre-wrap; }
        <string>12.12.2020</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_14">
+     <widget class="QTextEdit" name="textEdit_description_state_speaker_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1353,7 +1353,7 @@ p, li { white-space: pre-wrap; }
        <string>5.</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_15">
+     <widget class="QLabel" name="label_description_state_speaker_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1372,7 +1372,7 @@ p, li { white-space: pre-wrap; }
        <string>Новое Описание состояния диктора:</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_15">
+     <widget class="QTextEdit" name="textEdit_watch_video_for_associate_desc">
       <property name="geometry">
        <rect>
         <x>590</x>
@@ -1410,7 +1410,7 @@ p, li { white-space: pre-wrap; }
        <string>6.</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_speaker_11">
+     <widget class="QLabel" name="label_select_speaker_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1450,7 +1450,7 @@ p, li { white-space: pre-wrap; }
        <string>2.</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_select_speaker_12">
+     <widget class="QLabel" name="label_watch_video_desc">
       <property name="geometry">
        <rect>
         <x>690</x>
@@ -1471,7 +1471,7 @@ p, li { white-space: pre-wrap; }
        <string>Просмотр текущего видео</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_select_speaker_4">
+     <widget class="QComboBox" name="comboBox_select_speaker_desc">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -1481,7 +1481,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_16">
+     <widget class="QLabel" name="label_select_class_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1500,7 +1500,7 @@ p, li { white-space: pre-wrap; }
        <string>Новое описание: В каком стандартном классе состояний находится диктор:</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_16">
+     <widget class="QTextEdit" name="textEdit_description_video">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1510,7 +1510,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_url_10">
+     <widget class="QPushButton" name="pushButton_drop_all">
       <property name="geometry">
        <rect>
         <x>810</x>
@@ -1523,7 +1523,7 @@ p, li { white-space: pre-wrap; }
        <string>Сбросить все !</string>
       </property>
      </widget>
-     <widget class="QListView" name="listView">
+     <widget class="QListView" name="listView_select_video">
       <property name="geometry">
        <rect>
         <x>370</x>
@@ -1533,7 +1533,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_17">
+     <widget class="QLabel" name="label_class_speaker_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1552,7 +1552,7 @@ p, li { white-space: pre-wrap; }
        <string>Класс состояния диктора на записи:</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_17">
+     <widget class="QTextEdit" name="textEdit_description_speaker">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1569,7 +1569,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;Вербальное описание сосояния диктора на записи&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_add_comment_18">
+     <widget class="QLabel" name="label_description_speaker">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1588,7 +1588,7 @@ p, li { white-space: pre-wrap; }
        <string>Описание состояния диктора:</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_comment_18">
+     <widget class="QTextEdit" name="textEdit_class_speaker_desc">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1622,7 +1622,7 @@ p, li { white-space: pre-wrap; }
        <string>Добавить</string>
       </property>
      </widget>
-     <widget class="QTableView" name="tableView">
+     <widget class="QTableView" name="tableView_list_speakers">
       <property name="geometry">
        <rect>
         <x>30</x>
@@ -1632,7 +1632,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_speaker_2">
+     <widget class="QPushButton" name="pushButton_edit_speaker">
       <property name="geometry">
        <rect>
         <x>790</x>
@@ -1651,7 +1651,7 @@ p, li { white-space: pre-wrap; }
        <string>Редактировать</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_speaker_3">
+     <widget class="QPushButton" name="pushButton_delete_speaker">
       <property name="geometry">
        <rect>
         <x>790</x>
@@ -1670,7 +1670,7 @@ p, li { white-space: pre-wrap; }
        <string>Удалить</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_speaker_4">
+     <widget class="QPushButton" name="pushButton_inactive_speaker">
       <property name="geometry">
        <rect>
         <x>790</x>
@@ -1689,7 +1689,7 @@ p, li { white-space: pre-wrap; }
        <string>Не активен !</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_add_expert_6">
+     <widget class="QPushButton" name="pushButton_save_speakers">
       <property name="geometry">
        <rect>
         <x>730</x>
@@ -1708,7 +1708,7 @@ p, li { white-space: pre-wrap; }
        <string>Сохранить изменения в БД</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_list_expert">
+     <widget class="QLabel" name="label_list_speakers">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -1760,7 +1760,7 @@ p, li { white-space: pre-wrap; }
        <string>Выбрать</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_path_to_save_video_3">
+     <widget class="QLabel" name="label_path_expert_save_video">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -1781,7 +1781,7 @@ p, li { white-space: pre-wrap; }
        <string>Расположение на компьютере эксперта системных папок:</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_path_to_save_video_4">
+     <widget class="QLabel" name="label_path_to_save_video">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1794,7 +1794,7 @@ p, li { white-space: pre-wrap; }
        <string>1. Для хранения видеозаписей, загруженных экспертом в систему из Интернета или самостоятельно:</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_path_to_save_video_5">
+     <widget class="QLineEdit" name="lineEdit_path_to_save_edit_video">
       <property name="geometry">
        <rect>
         <x>60</x>
@@ -1807,7 +1807,7 @@ p, li { white-space: pre-wrap; }
        <string>для хранения отредактированного видео, ассоциациированного с диктором</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_path_to_save_video_6">
+     <widget class="QLabel" name="label_path_to_save_edit_video">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1820,7 +1820,7 @@ p, li { white-space: pre-wrap; }
        <string>2. Для хранения видеозаписей, ассоцированных с состоянием диктора:</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_path_to_save_video_5">
+     <widget class="QPushButton" name="pushButton_path_to_save_edit_vide">
       <property name="geometry">
        <rect>
         <x>780</x>
@@ -1833,7 +1833,7 @@ p, li { white-space: pre-wrap; }
        <string>Выбрать</string>
       </property>
      </widget>
-     <widget class="QRadioButton" name="radioButton">
+     <widget class="QRadioButton" name="radioButton_local">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -1846,7 +1846,7 @@ p, li { white-space: pre-wrap; }
        <string>Автономная работа</string>
       </property>
      </widget>
-     <widget class="QRadioButton" name="radioButton_2">
+     <widget class="QRadioButton" name="radioButton_network">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -1859,7 +1859,7 @@ p, li { white-space: pre-wrap; }
        <string>Работа по сети</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_path_to_save_video_11">
+     <widget class="QLineEdit" name="lineEdit_path_to_save_audio">
       <property name="geometry">
        <rect>
         <x>60</x>
@@ -1872,7 +1872,7 @@ p, li { white-space: pre-wrap; }
        <string>для хранения аудиофайлов, ассоциированных с диктором</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_path_to_save_video_11">
+     <widget class="QLabel" name="label_path_to_save_audio">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -1885,7 +1885,7 @@ p, li { white-space: pre-wrap; }
        <string>3. Для размещения аудиофайлов:</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_path_to_save_video_11">
+     <widget class="QPushButton" name="pushButton_path_to_save_audio">
       <property name="geometry">
        <rect>
         <x>780</x>
@@ -1898,7 +1898,7 @@ p, li { white-space: pre-wrap; }
        <string>Выбрать</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_path_to_save_video_12">
+     <widget class="QLabel" name="label_type_of_work">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -1919,7 +1919,7 @@ p, li { white-space: pre-wrap; }
        <string>Вид работы:</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_path_to_save_video_13">
+     <widget class="QLabel" name="label_settings_database">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -1956,7 +1956,7 @@ p, li { white-space: pre-wrap; }
        <attribute name="title">
         <string>Работа на локальном компьютере</string>
        </attribute>
-       <widget class="QPushButton" name="pushButton_path_to_save_video_14">
+       <widget class="QPushButton" name="pushButton_settings_database_local">
         <property name="geometry">
          <rect>
           <x>410</x>
@@ -1969,7 +1969,7 @@ p, li { white-space: pre-wrap; }
          <string>Настройки БД</string>
         </property>
        </widget>
-       <widget class="QLabel" name="label_path_to_save_video_14">
+       <widget class="QLabel" name="label_current_database_local">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -1990,7 +1990,7 @@ p, li { white-space: pre-wrap; }
          <string>Текущая база данных:</string>
         </property>
        </widget>
-       <widget class="QTextEdit" name="textEdit">
+       <widget class="QTextEdit" name="textEdit_current_database_local">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -2000,7 +2000,7 @@ p, li { white-space: pre-wrap; }
          </rect>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_path_to_save_video_10">
+       <widget class="QLineEdit" name="lineEdit_path_to_database">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -2013,7 +2013,7 @@ p, li { white-space: pre-wrap; }
          <string>Расположение базы данных</string>
         </property>
        </widget>
-       <widget class="QLabel" name="label_path_to_save_video_10">
+       <widget class="QLabel" name="label_path_to_database">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -2026,7 +2026,7 @@ p, li { white-space: pre-wrap; }
          <string>Папка на локальном компьютере, в котором размещена база данных текущего НЭД:</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_path_to_save_video_10">
+       <widget class="QPushButton" name="pushButton_path_to_database">
         <property name="geometry">
          <rect>
           <x>530</x>
@@ -2039,7 +2039,7 @@ p, li { white-space: pre-wrap; }
          <string>Выбрать</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_add_expert_5">
+       <widget class="QPushButton" name="pushButton_save_local_settings">
         <property name="geometry">
          <rect>
           <x>190</x>
@@ -2063,7 +2063,7 @@ p, li { white-space: pre-wrap; }
        <attribute name="title">
         <string>Работа по сети</string>
        </attribute>
-       <widget class="QPushButton" name="pushButton_path_to_save_video_12">
+       <widget class="QPushButton" name="pushButton_network_settings">
         <property name="geometry">
          <rect>
           <x>420</x>
@@ -2076,7 +2076,7 @@ p, li { white-space: pre-wrap; }
          <string>Сетевые настройки</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_path_to_save_video_15">
+       <widget class="QPushButton" name="pushButton_download_from_server">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -2089,7 +2089,7 @@ p, li { white-space: pre-wrap; }
          <string>Загрузить данные С сервера</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_path_to_save_video_16">
+       <widget class="QPushButton" name="pushButton_sync_up">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -2102,7 +2102,7 @@ p, li { white-space: pre-wrap; }
          <string>Синхронизироваться с сервером</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_path_to_save_video_17">
+       <widget class="QPushButton" name="pushButton_load_to_server">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -2117,7 +2117,7 @@ p, li { white-space: pre-wrap; }
        </widget>
       </widget>
      </widget>
-     <widget class="QLabel" name="label_path_to_save_video_5">
+     <widget class="QLabel" name="label_name_NED">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -2138,7 +2138,7 @@ p, li { white-space: pre-wrap; }
        <string>Название текущего набора экспериментальных данных (НЭД):</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_path_to_save_video_12">
+     <widget class="QLineEdit" name="lineEdit_name_NED">
       <property name="geometry">
        <rect>
         <x>530</x>
@@ -2151,7 +2151,7 @@ p, li { white-space: pre-wrap; }
        <string>Краткое название</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_path_to_save_video_13">
+     <widget class="QPushButton" name="pushButton_NED_info">
       <property name="geometry">
        <rect>
         <x>680</x>
