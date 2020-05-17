@@ -6,21 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>410</width>
+    <width>432</width>
     <height>130</height>
    </rect>
   </property>
-  <property name="minimumSize">
-   <size>
-    <width>410</width>
-    <height>130</height>
-   </size>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>410</width>
-    <height>130</height>
-   </size>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>12</pointsize>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Авторизация</string>
@@ -42,7 +36,7 @@
    <widget class="QPushButton" name="pushButton_expert">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>220</x>
       <y>30</y>
       <width>191</width>
       <height>41</height>
